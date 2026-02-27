@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: blanchedalmond;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+}
+
+h1 {
+    font-size: 40px;
+}
