@@ -7,17 +7,15 @@
 </head>
 <body>
     <h1>Vamos Jogar Pedra, Papel, Tesoura!</h1>
-    <select id="meuSelect">
-        <option value="Pedra">Pedra</option>
-        <option value="Papel">Papel</option>
-        <option value="Tesoura">Tesoura</option>
-    </select>
 
-    <button onclick="verificar()">Tentar</button>
+    <button onclick="jogar('pedra')">Pedra</button>
+    <button onclick="jogar('papel')">Papel</button>
+    <button onclick="jogar('tesoura')">Tesoura</button>
 
-    <p id="mensagem"></p>
+    <h2 id="resultado"></h2>
 
-    <script src="adivinhador.js"></script>
+
+    <script src="jokempo.js"></script>
 
 </body>
 </html>
