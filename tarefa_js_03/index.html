@@ -1,12 +1,54 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tarefa_js_03</title>
+    <title>Tarefa_03</title>
 </head>
+
 <body>
-    <h1>Dom: Página Interativa com JavaScript</h1>
+
+    <h1>DOM: Página Interativa com JavaScript</h1>
+
+    <!-- CONTADOR -->
+    <button id="incrementar">Incrementar</button>
+    <button id="decrementar">Decrementar</button>
+
+    <p id="contador">0</p>
+
+    <br><br>
+
+    <!-- INPUT TEXTO -->
+    <input type="text" id="inputTexto" placeholder="Digite algo...">
+    <p><span id="charCount">0</span> caracteres</p>
+
+    <br>
+
+    <!-- PARÁGRAFOS DINÂMICOS -->
+    <div id="paragrafos"></div>
+
+    <br><br>
+
+    <!-- LISTAS -->
+    <label>Escolha o tipo de lista:</label>
+    <select id="tipoLista">
+        <option value="ul">Lista Não Ordenada</option>
+        <option value="ol">Lista Ordenada</option>
+    </select>
+
+    <button id="adicionarLista">Adicionar Lista</button>
+
+    <br><br>
+
+    <div id="listas"></div>
+
+    <br>
+
+    <!-- RESET -->
+    <button id="resetar">Resetar Tudo</button>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
